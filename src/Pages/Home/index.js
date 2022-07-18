@@ -6,7 +6,7 @@ import { AuthLogout } from "../../redux/actions/Auth";
 const Home = () => {
   const dispatch = useDispatch();
   const [query, setQuery] = useSearchParams()
-  const [paginate, setPaginate] = useState({page: query.get('page') ?? 1,limit: 7})
+  const [paginate, setPaginate] = useState({page: query.get('page') ?? 1,limit: 3})
   const navigate = useNavigate()
 
   useEffect(() => {
