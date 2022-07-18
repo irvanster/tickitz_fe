@@ -24,7 +24,7 @@ const Login =({props})=> {
         }
     },[isLogin]) //dependencies itu digunakan ketika misalkan ada perubahan state, artinya ketika handleLogin di klik, maka akan ada perubahan state
     // useeffect // pertamakali diload
-
+    //ubah logic
     return(
         <form onSubmit={handleLogin}>
                 <input type={'email'} placeholder="email" required onChange={(e)=> {
