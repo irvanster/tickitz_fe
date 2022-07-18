@@ -1,6 +1,6 @@
 const Movies = ()=> {
     return(
-        <div>ini Movies</div>
+        <div>Ubah tampilan</div>
     )
 }
 

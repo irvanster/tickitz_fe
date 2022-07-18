@@ -21,6 +21,7 @@ const GetMoviesError = (error) => {
 };
 
 export const GetMovies = ({page=1, limit}) => {
+  //add logic
     return (dispatch) => {
         dispatch(GetMoviesRequest())
         axios({

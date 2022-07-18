@@ -10,7 +10,7 @@ const initialState = {
         // success: true,
     },
 }
-
+//add logic
 
 const Fetch = (state=initialState, action={})=> {
     switch (action.type) {
